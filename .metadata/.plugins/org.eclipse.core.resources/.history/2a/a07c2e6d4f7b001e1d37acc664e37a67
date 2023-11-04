@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+#define KONSTANT 'a'
+#define MAX_LEANGE 30
+
+int main()
+{
+	char str[MAX_LEANGE];
+	char str_aus[MAX_LEANGE];
+	printf("Bitte geben Sie ein Wort ein: ");
+	scanf("%s", str);
+
+	for(int i = 0; i < sizeof(str); i++){
+		str_aus[i] = str[i] ^ KONSTANT;
+	}
+
+
+
+    return 0;
+}

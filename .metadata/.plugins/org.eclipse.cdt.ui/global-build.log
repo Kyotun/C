@@ -4467,3 +4467,812 @@ Finished building target: c-training
 20:48:25 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+20:56:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+20:56:43 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:13:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:18: error: expression is not assignable
+        str_aus = str ^ KONSTANT:
+                        ^~~~~~~~
+../src/Aufgabe 3.P.c.c:4:19: note: expanded from macro 'KONSTANT'
+#define KONSTANT 9--c0
+                 ~^
+../src/Aufgabe 3.P.c.c:14:18: error: expected ';' after expression
+../src/Aufgabe 3.P.c.c:4:21: note: expanded from macro 'KONSTANT'
+#define KONSTANT 9--c0
+                    ^
+2 errors generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:9:11: error: unexpected ';' before ']'
+        char str[MAX_LEANGE];
+                 ^
+../src/Aufgabe 3.P.c.c:5:22: note: expanded from macro 'MAX_LEANGE'
+#define MAX_LEANGE 30;
+                     ^
+../src/Aufgabe 3.P.c.c:10:15: error: unexpected ';' before ']'
+        char str_aus[MAX_LEANGE];
+                     ^
+../src/Aufgabe 3.P.c.c:5:22: note: expanded from macro 'MAX_LEANGE'
+#define MAX_LEANGE 30;
+                     ^
+../src/Aufgabe 3.P.c.c:14:18: error: expression is not assignable
+        str_aus = str ^ KONSTANT:
+                        ^~~~~~~~
+../src/Aufgabe 3.P.c.c:4:19: note: expanded from macro 'KONSTANT'
+#define KONSTANT 9--c0;
+                 ~^
+../src/Aufgabe 3.P.c.c:14:18: error: expected ';' after expression
+../src/Aufgabe 3.P.c.c:4:21: note: expanded from macro 'KONSTANT'
+#define KONSTANT 9--c0;
+                    ^
+../src/Aufgabe 3.P.c.c:14:18: error: use of undeclared identifier 'c0'
+../src/Aufgabe 3.P.c.c:4:21: note: expanded from macro 'KONSTANT'
+#define KONSTANT 9--c0;
+                    ^
+../src/Aufgabe 3.P.c.c:14:26: error: expected expression
+        str_aus = str ^ KONSTANT:
+                                ^
+6 errors generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:9:11: error: unexpected ';' before ']'
+        char str[MAX_LEANGE];
+                 ^
+../src/Aufgabe 3.P.c.c:5:22: note: expanded from macro 'MAX_LEANGE'
+#define MAX_LEANGE 30;
+                     ^
+../src/Aufgabe 3.P.c.c:10:15: error: unexpected ';' before ']'
+        char str_aus[MAX_LEANGE];
+                     ^
+../src/Aufgabe 3.P.c.c:5:22: note: expanded from macro 'MAX_LEANGE'
+#define MAX_LEANGE 30;
+                     ^
+2 errors generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:10:7: warning: unused variable 'str_aus' [-Wunused-variable]
+        char str_aus[MAX_LEANGE];
+             ^
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:14:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:16: error: invalid operands to binary expression ('char[30]' and 'int')
+        str_aus = str ^ KONSTANT;
+                  ~~~ ^ ~~~~~~~~
+1 error generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:16: error: invalid operands to binary expression ('char[30]' and 'char[4]')
+        str_aus = str ^ KONSTANT;
+                  ~~~ ^ ~~~~~~~~
+1 error generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:27 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:16: error: invalid operands to binary expression ('char[30]' and 'int')
+        str_aus = str ^ KONSTANT;
+                  ~~~ ^ ~~~~~~~~
+1 error generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:17:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:21: error: call to undeclared function 'sizeOf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        for(int i = 0; i < sizeOf(str): i++){
+                           ^
+../src/Aufgabe 3.P.c.c:14:32: error: expected ';' in 'for' statement specifier
+        for(int i = 0; i < sizeOf(str): i++){
+                                      ^
+../src/Aufgabe 3.P.c.c:14:32: error: expected expression
+../src/Aufgabe 3.P.c.c:14:32: error: expected ')'
+../src/Aufgabe 3.P.c.c:14:5: note: to match this '('
+        for(int i = 0; i < sizeOf(str): i++){
+           ^
+4 errors generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:18:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:32: error: expected ';' in 'for' statement specifier
+        for(int i = 0; i < sizeof(str): i++){
+                                      ^
+../src/Aufgabe 3.P.c.c:14:32: error: expected expression
+../src/Aufgabe 3.P.c.c:14:32: error: expected ')'
+../src/Aufgabe 3.P.c.c:14:5: note: to match this '('
+        for(int i = 0; i < sizeof(str): i++){
+           ^
+../src/Aufgabe 3.P.c.c:14:17: warning: variable 'i' used in loop condition not modified in loop body [-Wfor-loop-analysis]
+        for(int i = 0; i < sizeof(str): i++){
+                       ^
+1 warning and 3 errors generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:18:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:18:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:19:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:18:14: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("s", str_aus);
+               ~~~  ^
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:19:28 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:19:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:19:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:18:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:19:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:20:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:14:15: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("%d", sizeof(str[0]));
+                ~~   ^~~~~~~~~~~~~~
+                %lu
+../src/Aufgabe 3.P.c.c:20:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+2 warnings generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:20:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:20:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:20:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:22:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:22:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:22:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:22:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:12:14: warning: format specifies type 'char *' but the argument has type 'char (*)[30]' [-Wformat]
+        scanf("%s", &str);
+               ~~   ^~~~
+../src/Aufgabe 3.P.c.c:22:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+2 warnings generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:22:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:22:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:22:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:22:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:22:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:22:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:23:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:22:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+../src/Aufgabe 3.P.c.c:12:16: warning: 'scanf' may overflow; destination buffer in argument 2 has size 30, but the corresponding specifier may require size 31 [-Wfortify-source]
+        scanf("%30s", str);
+                      ^
+2 warnings generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:24:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:22:15: warning: format specifies type 'char *' but the argument has type 'char' [-Wformat]
+        printf("%s", str_aus[0]);
+                ~~   ^~~~~~~~~~
+                %c
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:24:27 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:24:28 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:24:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:24:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:25:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:25:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:26:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:26:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:27:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:27:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:29:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:29:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:30:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:30:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:30:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:28:14: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("s", str_aus);
+               ~~~  ^
+1 warning generated.
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:32:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:32:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:32:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:32:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:33:49 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:33:52 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:34:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:34:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:35:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:35:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:35:27 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:35:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:25:23: error: invalid operands to binary expression ('char' and 'char[16]')
+                str_aus[i] = str[i] ^ "aßodfkjdsfogbn";
+                             ~~~~~~ ^ ~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:35:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+../src/Aufgabe 3.P.c.c:25:23: error: invalid operands to binary expression ('char' and 'char[16]')
+                str_aus[i] = str[i] ^ "aßodfkjdsfogbn";
+                             ~~~~~~ ^ ~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Aufgabe 3.P.c.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:35:51 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:35:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:35:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:36:49 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:38:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:38:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:38:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:32 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:39:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:40:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:40:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:40:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:40:54 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:41:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:41:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:42:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:42:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:42:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:42:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe 3.P.c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"src/Aufgabe 3.P.c.o" -o "src/Aufgabe 3.P.c.o" "../src/Aufgabe 3.P.c.c"
+Finished building: ../src/Aufgabe 3.P.c.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe\ 3.P.c.o   
+Finished building target: c-training
+ 
+21:43:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:28 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+21:43:51 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.

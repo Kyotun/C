@@ -4,20 +4,20 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Aufgabe3Pb.c 
+../src/Aufgabe\ 3.P.c.c 
 
 C_DEPS += \
-./src/Aufgabe3Pb.d 
+./src/Aufgabe\ 3.P.c.d 
 
 OBJS += \
-./src/Aufgabe3Pb.o 
+./src/Aufgabe\ 3.P.c.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-src/%.o: ../src/%.c src/subdir.mk
+src/Aufgabe\ 3.P.c.o: ../src/Aufgabe\ 3.P.c.c src/subdir.mk
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
-	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe 3.P.c.d" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
@@ -25,7 +25,7 @@ src/%.o: ../src/%.c src/subdir.mk
 clean: clean-src
 
 clean-src:
-	-$(RM) ./src/Aufgabe3Pb.d ./src/Aufgabe3Pb.o
+	-$(RM) ./src/Aufgabe\ 3.P.c.d ./src/Aufgabe\ 3.P.c.o
 
 .PHONY: clean-src
 
