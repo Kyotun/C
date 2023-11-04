@@ -3981,3 +3981,489 @@ Finished building target: c-training
 18:42:57 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+18:46:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:5:26: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  double matrix[N][N] = {0.0};/* Deklaration der Matrix als 2-dim. Array */
+                         ^~~
+                         {  }
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+18:47:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:5:26: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  double matrix[N][N] = {0.0};/* Deklaration der Matrix als 2-dim. Array */
+                         ^~~
+                         {  }
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+18:47:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:47:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:47:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:5:26: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  double matrix[N][N] = {0.0};/* Deklaration der Matrix als 2-dim. Array */
+                         ^~~
+                         {  }
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:40:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:7:10: error: definition of variable with array type needs an explicit size or an initializer
+    char str2[]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:23:15: warning: incompatible pointer to integer conversion assigning to 'char' from 'char *'; dereference with * [-Wint-conversion]
+        *p2++ = p1--;
+              ^ ~~~~
+1 warning and 1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:41:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:23:15: warning: incompatible pointer to integer conversion assigning to 'char' from 'char *'; dereference with * [-Wint-conversion]
+        *p2++ = p1--;
+              ^ ~~~~
+../src/Aufgabe3Pb.c:11:17: warning: variable 'str1' is uninitialized when used here [-Wuninitialized]
+    scanf("%s", str1);
+                ^~~~
+../src/Aufgabe3Pb.c:6:15: note: initialize the variable 'str1' to silence this warning
+    char *str1; /* Eingabestring */
+              ^
+               = NULL
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:42:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:23:17: error: cannot take the address of an rvalue of type 'char *'
+        *p2++ = &p1--;
+                ^~~~~
+1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:42:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:17: warning: variable 'str1' is uninitialized when used here [-Wuninitialized]
+    scanf("%s", str1);
+                ^~~~
+../src/Aufgabe3Pb.c:6:15: note: initialize the variable 'str1' to silence this warning
+    char *str1; /* Eingabestring */
+              ^
+               = NULL
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:43:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:18: error: use of undeclared identifier 'nullptr'
+    char *str1 = nullptr; /* Eingabestring */
+                 ^
+1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:43:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:43:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:43:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:43:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:44:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:17: warning: format specifies type 'char *' but the argument has type 'char **' [-Wformat]
+    scanf("%s", &str1);
+           ~~   ^~~~~
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:44:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:44:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:44:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:17: warning: format specifies type 'char *' but the argument has type 'char **' [-Wformat]
+    scanf("%s", &str1);
+           ~~   ^~~~~
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:44:26 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:44:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:18: warning: empty character constant [-Winvalid-pp-token]
+    char *str1 = ''; /* Eingabestring */
+                 ^
+../src/Aufgabe3Pb.c:6:18: error: expected expression
+../src/Aufgabe3Pb.c:11:17: warning: format specifies type 'char *' but the argument has type 'char **' [-Wformat]
+    scanf("%s", &str1);
+           ~~   ^~~~~
+2 warnings and 1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:44:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:17: warning: format specifies type 'char *' but the argument has type 'char **' [-Wformat]
+    scanf("%s", &str1);
+           ~~   ^~~~~
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:44:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:44:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:45:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:45:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:45:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:5: error: use of undeclared identifier 'string'
+    string str1 = NULL; /* Eingabestring */
+    ^
+../src/Aufgabe3Pb.c:11:17: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    scanf("%s", str1);
+                ^~~~
+                str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:15:21: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    for (i = strlen(str1) - 1; i >= 0; i--) {
+                    ^~~~
+                    str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:16:19: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+        printf("%c", str1[i]);
+                     ^~~~
+                     str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:20:10: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    p1 = str1 + strlen(str1) - 1; /* p1 zeigt auf das Ende von str1 */
+         ^~~~
+         str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:20:24: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    p1 = str1 + strlen(str1) - 1; /* p1 zeigt auf das Ende von str1 */
+                       ^~~~
+                       str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:25:18: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    while (p1 >= str1){
+                 ^~~~
+                 str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:32:30: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    printf("\n%s <--> %s\n", str1, str2);
+                             ^~~~
+                             str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+8 errors generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:46:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:5: error: use of undeclared identifier 'string'
+    string str1; /* Eingabestring */
+    ^
+../src/Aufgabe3Pb.c:11:17: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    scanf("%s", str1);
+                ^~~~
+                str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:15:21: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    for (i = strlen(str1) - 1; i >= 0; i--) {
+                    ^~~~
+                    str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:16:19: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+        printf("%c", str1[i]);
+                     ^~~~
+                     str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:20:10: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    p1 = str1 + strlen(str1) - 1; /* p1 zeigt auf das Ende von str1 */
+         ^~~~
+         str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:20:24: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    p1 = str1 + strlen(str1) - 1; /* p1 zeigt auf das Ende von str1 */
+                       ^~~~
+                       str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:25:18: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    while (p1 >= str1){
+                 ^~~~
+                 str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+../src/Aufgabe3Pb.c:32:30: error: use of undeclared identifier 'str1'; did you mean 'str2'?
+    printf("\n%s <--> %s\n", str1, str2);
+                             ^~~~
+                             str2
+../src/Aufgabe3Pb.c:7:10: note: 'str2' declared here
+    char str2[MAX_LENGTH]; /* Ausgabestring */
+         ^
+8 errors generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:47:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:47:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:47:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:47:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:47:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:47:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+20:48:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:27:12: warning: incompatible pointer to integer conversion assigning to 'char' from 'char *'; dereference with * [-Wint-conversion]
+        *p2++ = p1--;
+              ^ ~~~~
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:48:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:27:14: error: cannot take the address of an rvalue of type 'char *'
+        *p2++ = &p1--;
+                ^~~~~
+1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:48:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:27:11: error: expression is not assignable
+        p2++ = p1--;
+        ~~~~ ^
+1 error generated.
+make: *** [src/Aufgabe3Pb.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:48:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+20:48:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
