@@ -1,0 +1,14 @@
+LaunchTargetManager/configs/c-training\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/test=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/testing=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=aarch64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:testing,org.eclipse.launchbar.core.descriptorType.default\:c-training Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:c-training\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:c-training\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:launchConfiguration/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:launchConfiguration/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:testing/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:testing/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

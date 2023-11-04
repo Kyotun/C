@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define GESUCHTER_BUCHSTABE 'a'
+
+int main()
+{
+	char stern = '*';
+	int i = 0;
+	int j = 0;
+	while(i < 6){
+		printf("%c", stern);
+		i++;
+		j=0;
+
+	}
+
+	return 0;
+}

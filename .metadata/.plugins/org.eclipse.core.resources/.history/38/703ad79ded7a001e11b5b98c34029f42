@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+#define GESUCHTER_BUCHSTABE 'a'
+
+int main()
+{
+	printf("Ich habe mir einen Buchstaben ausgedacht.\n");
+	printf("Sie koennen insgesamt 3 mal raten.");
+	for(int i = 0; i < 3; i++){
+		printf("Versuch % - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+
+	}
+
+	return 0;
+}

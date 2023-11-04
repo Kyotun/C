@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+#define GESUCHTER_BUCHSTABE 'a'
+
+int main()
+{
+	char gesucht;
+	printf("Ich habe mir einen Buchstaben ausgedacht.\n");
+	printf("Sie koennen insgesamt 3 mal raten.\n");
+	for(int i = 0; i < 3; i++){
+		printf("Versuch %d - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+		scanf("%c");
+		scanf("%c", &gesucht);
+		if(gesucht == GESUCHTER_BUCHSTABE){
+			printf("Gratuliere, Sie haben den Buchstaben erraten.\n");
+			break;
+		} else {
+			printf("Nein, das ist er nicht.\n");
+			gesucht = "";
+		}
+	}
+
+	return 0;
+}

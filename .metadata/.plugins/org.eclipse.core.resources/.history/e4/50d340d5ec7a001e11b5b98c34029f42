@@ -1,0 +1,24 @@
+#include <stdio.h>
+#define N 10
+
+int main() 
+{
+	int i0, i1, i2, i3, i4;
+	double d0, d1, d2, d3, d4;
+
+	d0 = 3/4.0;
+	d1 = 3./4;
+	d2 = 3/4;
+	d3 = d0+2;
+	d4 = d2+2;
+
+	i0 = 3/4.0 + 2;
+	i1 = 5 - 3./4;
+	i2 = 3/4 + 2;
+	i3 = 4 + 1%3;
+	i4 = 5*8%(3/2);
+
+	printf("%f, %f, %f, %f, %f\n", d0, d1, d2, d3, d4);
+	printf("%d, %d ,%d, %d ,%d", i0, i1, i2, i3, i4);
+	return 0;
+}

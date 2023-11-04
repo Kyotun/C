@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define N 10
+
+int main() 
+{
+	int i = 0;
+	int summe = 0;
+	while(i < 10){
+		summe = summe + N - i;
+		i++;
+	}
+	printf("%d", summe);
+	return 0;
+}

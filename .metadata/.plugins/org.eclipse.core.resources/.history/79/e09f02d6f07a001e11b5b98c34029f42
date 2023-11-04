@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+#define GESUCHTER_BUCHSTABE 'a'
+
+int main()
+{
+
+	return 0;
+}

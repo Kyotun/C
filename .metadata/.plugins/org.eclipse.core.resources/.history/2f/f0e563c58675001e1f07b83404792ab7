@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : testing.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <memory>
+#include <string>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+class Animal{
+private:
+	string species;
+	int age;
+	double weight;
+public:
+	string getSpecies(){return species;}
+	int getAge(){return age;}
+	double getWeight(){return weight;}
+	Animal() = default;
+	Animal(string species, int age, double weight);
+};
+
+Animal::Animal(string species, int age, double weight){
+	this->species = species;
+	this->age = age;
+	this->weight = weight;
+}
+
+int main()
+{
+	vector<shared_ptr<Animal>> animalVecotr;
+	shared_ptr<Animal> cat = make_shared<Animal>("Cat",7,3.9);
+	shared_ptr<Animal> cat = make_shared<Animal>("Cat",7,3.9);
+	shared_ptr<Animal> cat = make_shared<Animal>("Cat",7,3.9);
+
+	return 0;
+
+}

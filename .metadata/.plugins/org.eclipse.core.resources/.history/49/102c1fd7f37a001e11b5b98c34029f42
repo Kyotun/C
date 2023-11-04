@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define zahl 10
+
+int main()
+{
+	int i = 1;
+	int j = 1;
+	while(j < zahl){
+		printf("%d\t", i*j);
+		j++;
+		if(j == 10){
+
+		}
+	}
+
+	return 0;
+}

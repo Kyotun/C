@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+#define zahl 100
+
+int main()
+{
+	int i = 1;
+	while(i < zahl){
+		printf("%d\t", i);
+		if(i == 10){
+			printf("\n");
+		}
+		i++;
+	}
+
+	return 0;
+}

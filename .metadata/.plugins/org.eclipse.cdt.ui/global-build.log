@@ -1,0 +1,1766 @@
+13:27:09 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:27:23 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:27:25 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:31:15 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+../src/testing.cpp:41:25: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+        animalVector.push_back(move(cat));
+                               ^
+                               std::
+../src/testing.cpp:42:25: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+        animalVector.push_back(move(dog));
+                               ^
+                               std::
+../src/testing.cpp:43:25: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+        animalVector.push_back(move(turtle));
+                               ^
+                               std::
+3 warnings generated.
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+13:31:16 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:34:20 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+13:34:21 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:40:54 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+13:40:55 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+13:44:18 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+13:44:18 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:03:45 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:03:46 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:05:07 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:05:08 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:05:48 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:05:49 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:07:58 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:07:59 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:08:27 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:08:27 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:08:35 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:08:35 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+14:08:52 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+14:08:53 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+18:29:41 **** Clean-only build of configuration Debug for project testing ****
+make clean 
+rm -rf ./src/testing.d ./src/testing.o
+rm -rf testing
+ 
+18:29:41 **** Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+18:29:42 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+18:30:17 **** Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:30:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:30:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:30:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:37:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:20:11: error: expected '(' after 'while'
+    while a!=0
+          ^
+1 error generated.
+make: *** [src/c-training.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:38:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:38:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:23:32: warning: format specifies type 'unsigned long long' but the argument has type 'int' [-Wformat]
+        printf("%querSum: %d", querSum);
+                ~~~            ^~~~~~~
+                %d
+../src/c-training.c:23:28: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("%querSum: %d", querSum);
+                          ~^
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+3 warnings generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:39:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:23:34: warning: format specifies type 'unsigned long long' but the argument has type 'int' [-Wformat]
+        printf("%querSum: %d\n", querSum);
+                ~~~              ^~~~~~~
+                %d
+../src/c-training.c:23:28: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("%querSum: %d\n", querSum);
+                          ~^
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+3 warnings generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:39:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:28 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:39:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:39:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:39:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:9: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        querSum += a%10;
+        ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:39:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:40:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:30: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        printf("querSum: %d\t", querSum);
+                                ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:40:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:42:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:42:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:42:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:21:30: warning: variable 'querSum' is uninitialized when used here [-Wuninitialized]
+        printf("querSum: %d\t", querSum);
+                                ^~~~~~~
+../src/c-training.c:18:16: note: initialize the variable 'querSum' to silence this warning
+    int querSum;
+               ^
+                = 0
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:42:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:42:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:42:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:42:26 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:42:26 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:43:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:43:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:43:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:20:15: error: call to undeclared function 'length'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    int len = length(ZAHL);
+              ^
+../src/c-training.c:20:9: warning: unused variable 'len' [-Wunused-variable]
+    int len = length(ZAHL);
+        ^
+1 warning and 1 error generated.
+make: *** [src/c-training.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:43:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:20:15: error: call to undeclared function 'length'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    int len = length(ZAHL);
+              ^
+../src/c-training.c:20:9: warning: unused variable 'len' [-Wunused-variable]
+    int len = length(ZAHL);
+        ^
+1 warning and 1 error generated.
+make: *** [src/c-training.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:44:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:44:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:58:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:20:13: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+    for(int i = 0; a > 0; i++){
+            ^
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:58:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+18:58:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/c-training.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c-training.d" -MT"src/c-training.o" -o "src/c-training.o" "../src/c-training.c"
+../src/c-training.c:19:13: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+    for(int i = 0; a > 0; i++){
+            ^
+1 warning generated.
+Finished building: ../src/c-training.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/c-training.o   
+Finished building target: c-training
+ 
+18:58:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+08:53:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+08:53:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgabe2-n-b.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgabe2-n-b.d" -MT"src/aufgabe2-n-b.o" -o "src/aufgabe2-n-b.o" "../src/aufgabe2-n-b.c"
+Finished building: ../src/aufgabe2-n-b.c
+ 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:56:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:58:12 **** Clean-only build of configuration Debug for project testing ****
+make clean 
+rm -rf ./src/testing.d ./src/testing.o
+rm -rf testing
+ 
+08:58:12 **** Incremental Build of configuration Debug for project testing ****
+make all 
+Building file: ../src/testing.cpp
+Invoking: GCC C++ Compiler
+g++ --std=c++1z -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/testing.d" -MT"src/testing.o" -o "src/testing.o" "../src/testing.cpp"
+Finished building: ../src/testing.cpp
+ 
+Building target: testing
+Invoking: MacOS X C++ Linker
+g++  -o "testing"  ./src/testing.o   
+Finished building target: testing
+ 
+08:58:16 **** Incremental Build of configuration Debug for project testing ****
+make all 
+make: Nothing to be done for `all'.
+08:58:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:58:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:59:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:00:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgabe2-n-b.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgabe2-n-b.d" -MT"src/aufgabe2-n-b.o" -o "src/aufgabe2-n-b.o" "../src/aufgabe2-n-b.c"
+Finished building: ../src/aufgabe2-n-b.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:00:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:00:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:00:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgabe2-n-b.o ./src/aufgaben.o   
+duplicate symbol '_main' in:
+    ./src/aufgabe2-n-b.o
+    ./src/aufgaben.o
+ld: 1 duplicate symbol for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [c-training] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:01:51 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:01:54 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:02:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:02:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:11:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:15:26: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("l, l, l, l, l", d0, d1, d2, d3, d4);
+               ~~~~~~~~~~~~~~~  ^
+../src/aufgaben.c:6:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+            ^
+../src/aufgaben.c:6:10: warning: unused variable 'i1' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                ^
+../src/aufgaben.c:6:14: warning: unused variable 'i2' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                    ^
+../src/aufgaben.c:6:18: warning: unused variable 'i3' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                        ^
+../src/aufgaben.c:6:22: warning: unused variable 'i4' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                            ^
+6 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:11:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:11:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:15:12: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%l, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                ~~^
+../src/aufgaben.c:15:16: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%l, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                    ~~^
+../src/aufgaben.c:15:20: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%l, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                        ~~^
+../src/aufgaben.c:15:24: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%l, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                            ~~^
+../src/aufgaben.c:15:26: warning: incomplete format specifier [-Wformat]
+        printf("%l, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                                ^~
+../src/aufgaben.c:6:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+            ^
+../src/aufgaben.c:6:10: warning: unused variable 'i1' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                ^
+../src/aufgaben.c:6:14: warning: unused variable 'i2' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                    ^
+../src/aufgaben.c:6:18: warning: unused variable 'i3' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                        ^
+../src/aufgaben.c:6:22: warning: unused variable 'i4' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                            ^
+10 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:11:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:12:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:15:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+        printf("%d, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                ~~                   ^~
+                %f
+../src/aufgaben.c:15:16: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%d, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                    ~~^
+../src/aufgaben.c:15:20: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%d, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                        ~~^
+../src/aufgaben.c:15:24: warning: invalid conversion specifier ',' [-Wformat-invalid-specifier]
+        printf("%d, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                            ~~^
+../src/aufgaben.c:15:26: warning: incomplete format specifier [-Wformat]
+        printf("%d, %l, %l, %l, %l", d0, d1, d2, d3, d4);
+                                ^~
+../src/aufgaben.c:6:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+            ^
+../src/aufgaben.c:6:10: warning: unused variable 'i1' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                ^
+../src/aufgaben.c:6:14: warning: unused variable 'i2' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                    ^
+../src/aufgaben.c:6:18: warning: unused variable 'i3' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                        ^
+../src/aufgaben.c:6:22: warning: unused variable 'i4' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                            ^
+10 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:12:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:12:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:6:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+            ^
+../src/aufgaben.c:6:10: warning: unused variable 'i1' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                ^
+../src/aufgaben.c:6:14: warning: unused variable 'i2' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                    ^
+../src/aufgaben.c:6:18: warning: unused variable 'i3' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                        ^
+../src/aufgaben.c:6:22: warning: unused variable 'i4' [-Wunused-variable]
+        int i0, i1, i2, i3, i4;
+                            ^
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:12:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:14:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:22:31: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                ~~                   ^~
+                %d
+../src/aufgaben.c:22:35: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                    ~~                   ^~
+                    %d
+../src/aufgaben.c:22:39: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                        ~~                   ^~
+                        %d
+../src/aufgaben.c:22:43: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                            ~~                   ^~
+                            %d
+../src/aufgaben.c:22:47: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                                ~~                   ^~
+                                %d
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:14:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:14:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:22:31: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                ~~                   ^~
+                %d
+../src/aufgaben.c:22:35: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                    ~~                   ^~
+                    %d
+../src/aufgaben.c:22:39: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                        ~~                   ^~
+                        %d
+../src/aufgaben.c:22:43: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                            ~~                   ^~
+                            %d
+../src/aufgaben.c:22:47: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                                ~~                   ^~
+                                %d
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:14:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:15:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:22:31: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                ~~                   ^~
+                %d
+../src/aufgaben.c:22:35: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                    ~~                   ^~
+                    %d
+../src/aufgaben.c:22:39: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                        ~~                   ^~
+                        %d
+../src/aufgaben.c:22:43: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                            ~~                   ^~
+                            %d
+../src/aufgaben.c:22:47: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                                ~~                   ^~
+                                %d
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:15:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:15:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:22:31: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                ~~                   ^~
+                %d
+../src/aufgaben.c:22:35: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                    ~~                   ^~
+                    %d
+../src/aufgaben.c:22:39: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                        ~~                   ^~
+                        %d
+../src/aufgaben.c:22:43: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                            ~~                   ^~
+                            %d
+../src/aufgaben.c:22:47: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+        printf("%f, %f ,%f, %f ,%f", i0, i1, i2, i3, i4);
+                                ~~                   ^~
+                                %d
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:15:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:15:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:15:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:32:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:19:11: error: expected expression
+        i4 = 5*8%;
+                 ^
+1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:32:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:32:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:32:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:32:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:33:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:33:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:33:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:33:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:33:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:33:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:40:32 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:17: warning: empty character constant [-Winvalid-pp-token]
+        char gesucht = '';
+                       ^
+../src/aufgaben.c:7:17: error: expected expression
+../src/aufgaben.c:11:64: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                printf("Versuch % - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+                                ~~~~~                                        ^~~
+                                %- d
+../src/aufgaben.c:12:14: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                if(scanf("%c") == GESUCHTER_BUCHSTABE){
+                          ~^
+3 warnings and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:41:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:17: warning: empty character constant [-Winvalid-pp-token]
+        char gesucht = '';
+                       ^
+../src/aufgaben.c:7:17: error: expected expression
+../src/aufgaben.c:11:64: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                printf("Versuch % - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+                                ~~~~~                                        ^~~
+                                %- d
+../src/aufgaben.c:12:14: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                if(scanf("%c") == GESUCHTER_BUCHSTABE){
+                          ~^
+3 warnings and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:41:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:11:64: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                printf("Versuch % - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+                                ~~~~~                                        ^~~
+                                %- d
+../src/aufgaben.c:12:14: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                if(scanf("%c") == GESUCHTER_BUCHSTABE){
+                          ~^
+../src/aufgaben.c:7:7: warning: unused variable 'gesucht' [-Wunused-variable]
+        char gesucht;
+             ^
+3 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:41:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:42:26 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:11:64: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                printf("Versuch % - Geben Sie einen Kleinbuchstaben ein:\n", i+1);
+                                ~~~~~                                        ^~~
+                                %- d
+../src/aufgaben.c:12:15: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                scanf("%c", gesucht);
+                       ~~   ^~~~~~~
+../src/aufgaben.c:12:15: warning: variable 'gesucht' is uninitialized when used here [-Wuninitialized]
+                scanf("%c", gesucht);
+                            ^~~~~~~
+../src/aufgaben.c:7:14: note: initialize the variable 'gesucht' to silence this warning
+        char gesucht;
+                    ^
+                     = '\0'
+3 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:42:27 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:43:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:12:15: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                scanf("%c", gesucht);
+                       ~~   ^~~~~~~
+../src/aufgaben.c:12:15: warning: variable 'gesucht' is uninitialized when used here [-Wuninitialized]
+                scanf("%c", gesucht);
+                            ^~~~~~~
+../src/aufgaben.c:7:14: note: initialize the variable 'gesucht' to silence this warning
+        char gesucht;
+                    ^
+                     = '\0'
+2 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:43:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:43:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:12:15: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+                scanf("%c", gesucht);
+                       ~~   ^~~~~~~
+../src/aufgaben.c:12:15: warning: variable 'gesucht' is uninitialized when used here [-Wuninitialized]
+                scanf("%c", gesucht);
+                            ^~~~~~~
+../src/aufgaben.c:7:14: note: initialize the variable 'gesucht' to silence this warning
+        char gesucht;
+                    ^
+                     = '\0'
+2 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:43:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:43:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:43:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:43:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:43:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:44:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:18:14: warning: empty character constant [-Winvalid-pp-token]
+                        gesucht = '';
+                                  ^
+../src/aufgaben.c:18:14: error: expected expression
+1 warning and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:44:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:18:14: warning: empty character constant [-Winvalid-pp-token]
+                        gesucht = '';
+                                  ^
+../src/aufgaben.c:18:14: error: expected expression
+1 warning and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+09:44:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:18:12: warning: incompatible pointer to integer conversion assigning to 'char' from 'char[1]' [-Wint-conversion]
+                        gesucht = "";
+                                ^ ~~
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:44:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:45:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:13:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%c");
+                       ~^
+../src/aufgaben.c:19:12: warning: incompatible pointer to integer conversion assigning to 'char' from 'char[1]' [-Wint-conversion]
+                        gesucht = "";
+                                ^ ~~
+2 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:45:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:46:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:12:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%c");
+                       ~^
+../src/aufgaben.c:19:12: warning: incompatible pointer to integer conversion assigning to 'char' from 'char[1]' [-Wint-conversion]
+                        gesucht = "";
+                                ^ ~~
+2 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:46:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:50:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:18:12: warning: incompatible pointer to integer conversion assigning to 'char' from 'char[1]' [-Wint-conversion]
+                        gesucht = "";
+                                ^ ~~
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:50:51 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:52:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:52:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:52:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:52:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:52:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:52:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:53:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:13:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%d");
+                       ~^
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:53:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:54:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:13:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%s");
+                       ~^
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:54:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:54:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:13:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%c");
+                       ~^
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:54:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:57:52 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:57:52 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:58:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:14:11: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+                scanf("%c");
+                       ~^
+../src/aufgaben.c:8:7: warning: unused variable 'empty' [-Wunused-variable]
+        char empty;
+             ^
+2 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:58:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:58:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:58:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:59:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+09:59:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+09:59:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:07:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:07:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:14:52 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:14:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:24:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:24:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:25:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:25:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:25:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:25:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
