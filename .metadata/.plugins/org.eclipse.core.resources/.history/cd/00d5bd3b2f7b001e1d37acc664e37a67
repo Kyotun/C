@@ -1,0 +1,21 @@
+#include <stdio.h>
+#define MAX_ZEICHEN 30
+
+int main() {
+	char eingabe[MAX_ZEICHEN+1];
+	int index, anzahl = 0;
+
+  /* Einlesen */
+
+        /* TODO: Hier Ihre Loesung eintragen ... */
+
+  /* zaehlen der 'e'-s im String */
+
+        /* TODO: Hier Ihre Loesung eintragen ... */
+
+  /* Ausgabe des Zaehlergebnisses */
+  printf("\n\nDas Wort %s", eingabe);
+  printf(" beinhaltet %d mal den Buchstaben 'e'\n", anzahl);
+
+  return 0;
+}

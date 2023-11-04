@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define pi 3.14
+
+
+int main()
+{
+	unsigned char a = 155;
+	a = a << 1;
+	printf("%d", a);
+	return 0;
+}

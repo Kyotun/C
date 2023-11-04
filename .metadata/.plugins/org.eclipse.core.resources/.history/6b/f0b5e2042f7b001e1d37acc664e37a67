@@ -1,0 +1,11 @@
+#include <stdio.h>
+typedef unsigned char byte;
+
+int main ()
+{
+	byte a = 'a';
+	unsigned char = 'b';
+	printf("%c", a);
+	printf("%c", b);
+	return 0;
+}
