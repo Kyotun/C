@@ -5276,3 +5276,357 @@ make: Nothing to be done for `all'.
 21:43:51 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+22:01:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:03:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:03:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:03:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:32 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:49 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:04:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:52 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:05:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:05:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:06:22 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:07:22 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:07:23 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:07:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:07:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:07:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:07:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:08:02 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:08:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:08:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:08:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:08:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:08:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:09:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:15:42: error: expected ';' after expression
+        printf("Geben Sie bitte ein Wort ein: ")
+                                                ^
+                                                ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:15:42: error: expected ';' after expression
+        printf("Geben Sie bitte ein Wort ein: ")
+                                                ^
+                                                ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:09:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:09:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:09:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:10:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:24:31: error: expected ';' after expression
+        printf("Encryptendes Wort: ")
+                                     ^
+                                     ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:10:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:24:31: error: expected ';' after expression
+        printf("Encryptendes Wort: ")
+                                     ^
+                                     ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:10:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:10:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
