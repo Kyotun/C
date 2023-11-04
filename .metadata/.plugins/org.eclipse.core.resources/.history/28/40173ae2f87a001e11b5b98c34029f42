@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a=3,b=5,c=-1,min;
+
+    min=c;
+    if a<b
+        if a<c
+            min=a;
+    else
+        if b<c
+            min=b;
+    printf("Minimum:%d\n",min);
+
+    return 0;
+}

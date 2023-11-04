@@ -1764,3 +1764,382 @@ Finished building target: c-training
 10:25:17 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+10:39:22 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:14:2: error: call to undeclared function 'pritnf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        pritnf("%d", i3);
+        ^
+../src/aufgaben.c:14:2: note: did you mean 'printf'?
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:175:6: note: 'printf' declared here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+         ^
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+../src/aufgaben.c:8:27: warning: unused variable 'd2' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                                 ^
+5 warnings and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:39:23 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:14:2: error: call to undeclared function 'pritnf'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+        pritnf("%d", i3);
+        ^
+../src/aufgaben.c:14:2: note: did you mean 'printf'?
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:175:6: note: 'printf' declared here
+int      printf(const char * __restrict, ...) __printflike(1, 2);
+         ^
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+../src/aufgaben.c:8:27: warning: unused variable 'd2' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                                 ^
+5 warnings and 1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:39:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+../src/aufgaben.c:8:27: warning: unused variable 'd2' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                                 ^
+5 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:39:41 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:40:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:22: warning: unused variable 'i2' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                            ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+../src/aufgaben.c:8:27: warning: unused variable 'd2' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                                 ^
+6 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:40:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:41:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:41:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:22: warning: unused variable 'i2' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                            ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+../src/aufgaben.c:8:27: warning: unused variable 'd2' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                                 ^
+6 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:41:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:42:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:22: warning: unused variable 'i2' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                            ^
+../src/aufgaben.c:7:31: warning: variable 'i3' set but not used [-Wunused-but-set-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                                     ^
+4 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:42:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:42:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:22: warning: unused variable 'i2' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                            ^
+../src/aufgaben.c:7:31: warning: variable 'i3' set but not used [-Wunused-but-set-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                                     ^
+3 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:42:47 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:43:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:31: warning: variable 'i3' set but not used [-Wunused-but-set-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                                     ^
+../src/aufgaben.c:8:18: warning: unused variable 'd1' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+                        ^
+4 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:43:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:43:37 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:6: warning: unused variable 'i0' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+            ^
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:31: warning: variable 'i3' set but not used [-Wunused-but-set-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                                     ^
+3 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:43:38 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:44:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:7:14: warning: unused variable 'i1' [-Wunused-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                    ^
+../src/aufgaben.c:7:31: warning: variable 'i3' set but not used [-Wunused-but-set-variable]
+        int i0 = 3, i1 = 5, i2 = 10, i3;
+                                     ^
+../src/aufgaben.c:8:9: warning: unused variable 'd0' [-Wunused-variable]
+        double d0 = 3., d1 = 5., d2;
+               ^
+3 warnings generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+10:44:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+10:45:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:21:10: error: invalid operands to binary expression ('int' and 'double')
+        d2 = i2 % d0;
+             ~~ ^ ~~
+1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:45:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:21:10: error: invalid operands to binary expression ('int' and 'double')
+        d2 = i2 % d0;
+             ~~ ^ ~~
+1 error generated.
+make: *** [src/aufgaben.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+11:01:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+11:01:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+11:01:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+11:01:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+11:01:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+11:01:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+11:04:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/aufgaben.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/aufgaben.d" -MT"src/aufgaben.o" -o "src/aufgaben.o" "../src/aufgaben.c"
+../src/aufgaben.c:9:13: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+    for(int i = 0; a > 0; i++){
+            ^
+1 warning generated.
+Finished building: ../src/aufgaben.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/aufgaben.o   
+Finished building target: c-training
+ 
+11:04:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
