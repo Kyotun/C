@@ -1,0 +1,27 @@
+#include <stdio.h>
+#define pi 3.14
+#define pi_square (pi*pi)
+
+
+int main()
+{
+    // Variablendeklaration
+    float r, u, a;
+
+    // Einlesen des Radius
+    printf("Geben Sie bitte den Radius ein: ");
+    // --- ToDo: hier den Radius einlesen
+    scanf("%d", &r);
+
+    // Pruefen, ob Eingabe sinnvoll
+    // --- ToDo: falls nein, Ausgabe von "Eingabe nicht sinnvoll"
+    if(r <= 0){
+    	printf("Eingabe ist nich sinnvoll.\n");
+    }
+
+
+
+    // --- ToDo: falls ja, Berechnung von Flaeche und Umfang und Ausgabe
+    printf("Umfang: %d\n", (2*(pi)*r));
+    printf("Fleache: %d\n",(pi_square*r))
+}

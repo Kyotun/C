@@ -1,0 +1,13 @@
+#define ZAHL 345
+
+int main() {
+    int a=ZAHL;
+    int querSum;
+
+    while a!=0
+        querSum+=a%10;
+        a=a/10;
+
+    printf("Die Quersumme von Zahl %d ist: %d", ZAHL,querSum);
+    return 0;
+}
