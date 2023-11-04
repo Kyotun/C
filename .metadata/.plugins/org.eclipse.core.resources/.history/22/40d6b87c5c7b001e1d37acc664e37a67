@@ -25,7 +25,6 @@ int main() {
 	  scanf("%lf", &matrix[zeile][spalte]);
   }
 
-  printf("\nDer eingegebende Matrix sieht so aus:\n");
   zeile = spalte = 0;
   for(int j = 0; j < N*N; j++){
 	  if(j < N){
@@ -57,7 +56,6 @@ int main() {
 
   /* Ausgabe der Matrix zeilenweise */
 
-  printf("\nMit dem Skalar multiplizierte Matrix sieht so aus:\n");
   zeile = spalte = 0;
   for(int j = 0; j < N*N; j++){
 	if(j < N){

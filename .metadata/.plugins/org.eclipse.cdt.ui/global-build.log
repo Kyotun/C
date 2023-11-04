@@ -5630,3 +5630,303 @@ Finished building target: c-training
 22:10:30 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+22:22:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:11:15: warning: format specifies type 'float *' but the argument has type 'double *' [-Wformat]
+  scanf("%f", &skalar);
+         ~~   ^~~~~~~
+         %lf
+../src/Aufgabe3Na.c:19:16: warning: format specifies type 'float *' but the argument has type 'double' [-Wformat]
+          scanf("%f", matrix[zeile][spalte]);
+                 ~~   ^~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:22:53 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:11:15: warning: format specifies type 'float *' but the argument has type 'double *' [-Wformat]
+  scanf("%f", &skalar);
+         ~~   ^~~~~~~
+         %lf
+../src/Aufgabe3Na.c:19:16: warning: format specifies type 'float *' but the argument has type 'double' [-Wformat]
+          scanf("%f", matrix[zeile][spalte]);
+                 ~~   ^~~~~~~~~~~~~~~~~~~~~
+../src/Aufgabe3Na.c:29:20: warning: format specifies type 'unsigned long' but the argument has type 'double' [-Wformat]
+          printf("%lu\t", matrix[zeile][spalte]);
+                  ~~~     ^~~~~~~~~~~~~~~~~~~~~
+                  %f
+3 warnings generated.
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:23:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:19:17: warning: format specifies type 'double *' but the argument has type 'double' [-Wformat]
+          scanf("%lf", matrix[zeile][spalte]);
+                 ~~~   ^~~~~~~~~~~~~~~~~~~~~
+../src/Aufgabe3Na.c:29:20: warning: format specifies type 'unsigned long' but the argument has type 'double' [-Wformat]
+          printf("%lu\t", matrix[zeile][spalte]);
+                  ~~~     ^~~~~~~~~~~~~~~~~~~~~
+                  %f
+2 warnings generated.
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:23:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:29:20: warning: format specifies type 'unsigned long' but the argument has type 'double' [-Wformat]
+          printf("%lu\t", matrix[zeile][spalte]);
+                  ~~~     ^~~~~~~~~~~~~~~~~~~~~
+                  %f
+1 warning generated.
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:23:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:23:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:39:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:39:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:44:07 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:44:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:45:08 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:45:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:45:49 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:45:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:47:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:47:05 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:48:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:48:21 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:49:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:49:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:49:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:49:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:52:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:52:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:52:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:52:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:53:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:28:54: error: expected ';' after expression
+  printf("\nDer eingegebende Matrix sieht so aus:\n")
+                                                     ^
+                                                     ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:53:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+../src/Aufgabe3Na.c:28:54: error: expected ';' after expression
+  printf("\nDer eingegebende Matrix sieht so aus:\n")
+                                                     ^
+                                                     ;
+1 error generated.
+make: *** [src/Aufgabe3Na.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:54:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:54:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:54:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:54:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.

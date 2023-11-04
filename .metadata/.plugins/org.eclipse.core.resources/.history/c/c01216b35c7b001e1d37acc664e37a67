@@ -57,7 +57,7 @@ int main() {
 
   /* Ausgabe der Matrix zeilenweise */
 
-  printf("\nMit dem Skalar multiplizierte Matrix sieht so aus:\n");
+  printf("\nmit dem Skalar multiplizierte Matrix sieht so aus:\n");
   zeile = spalte = 0;
   for(int j = 0; j < N*N; j++){
 	if(j < N){
