@@ -1,0 +1,32 @@
+#include <stdio.h>
+#define N 4 /* fuer eine NxN-Matrix */
+
+int main() {
+  double matrix[N][N]; /* Deklaration der Matrix als 2-dim. Array */
+  int zeile, spalte;
+  double temp; /* Zwischenspeicher fuer Matrixwert */
+
+  /* Initialisierung mit Benutzereingabe */
+  for (int i = 0; i < N; i++){
+    for (int j = 0; j < N; j++){
+    	printf("Geben Sie bitte das Element ein: [%d],[%d]\n", i, j);
+    }
+  }
+
+  /* Transponierung = Spiegelung an der Hauptdiagonalen */
+  for (){
+    for () {
+    }
+  }
+
+  /* Ausgabe der Matrix zeilenweise */
+  for () {
+    for (){
+      printf("%.2lf\t", );
+
+    }
+    printf("\n");
+  }
+
+  return 0;
+}

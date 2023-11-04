@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Aufgabe3a.P.a.c 
+../src/Aufgabe3Pa.c 
 
 C_DEPS += \
-./src/Aufgabe3a.P.a.d 
+./src/Aufgabe3Pa.d 
 
 OBJS += \
-./src/Aufgabe3a.P.a.o 
+./src/Aufgabe3Pa.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -25,7 +25,7 @@ src/%.o: ../src/%.c src/subdir.mk
 clean: clean-src
 
 clean-src:
-	-$(RM) ./src/Aufgabe3a.P.a.d ./src/Aufgabe3a.P.a.o
+	-$(RM) ./src/Aufgabe3Pa.d ./src/Aufgabe3Pa.o
 
 .PHONY: clean-src
 
