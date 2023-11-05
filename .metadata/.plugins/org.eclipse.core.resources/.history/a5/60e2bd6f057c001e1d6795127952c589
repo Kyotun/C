@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define N 2 /* fuer eine NxN-Matrix */
+
+int main() {
+	int *p;
+	int **q;
+	int variable = 100;
+
+	p = &variable;
+
+	printf("%p", &p);
+	return 0;
+}

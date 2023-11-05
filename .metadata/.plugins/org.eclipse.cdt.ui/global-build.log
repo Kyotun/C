@@ -5930,3 +5930,1049 @@ Finished building target: c-training
 22:54:18 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
+22:56:43 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Na.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Na.d" -MT"src/Aufgabe3Na.o" -o "src/Aufgabe3Na.o" "../src/Aufgabe3Na.c"
+Finished building: ../src/Aufgabe3Na.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Na.o   
+Finished building target: c-training
+ 
+22:56:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+22:58:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+22:58:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:03:54 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:10:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:03:55 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:03:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:04:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:04:33 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:10:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+../src/Aufgabe3Pb.c:13:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:04:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:10:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+../src/Aufgabe3Pb.c:13:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:04:40 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:04:43 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:04:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:04:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:05:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:10:16: warning: more '%' conversions than data arguments [-Wformat-insufficient-args]
+        printf("\na: %d");
+                     ~^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:05:26 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:05:27 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:05:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:05:36 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:05:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:05:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:06:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:06:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+17:06:23 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+17:06:23 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:01:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+../src/Aufgabe3Pb.c:9:3: warning: variable 'p' is uninitialized when used here [-Wuninitialized]
+        *p = variable;
+         ^
+../src/Aufgabe3Pb.c:5:8: note: initialize the variable 'p' to silence this warning
+        int *p;
+              ^
+               = NULL
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:01:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:9:5: warning: incompatible pointer to integer conversion assigning to 'int' from 'int *'; remove & [-Wint-conversion]
+        *p = &variable;
+           ^ ~~~~~~~~~
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+../src/Aufgabe3Pb.c:9:3: warning: variable 'p' is uninitialized when used here [-Wuninitialized]
+        *p = &variable;
+         ^
+../src/Aufgabe3Pb.c:5:8: note: initialize the variable 'p' to silence this warning
+        int *p;
+              ^
+               = NULL
+3 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:01:39 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:5:7: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+        int *p;
+             ^
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:01:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:01:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:01:59 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:04 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:02:06 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:02:10 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:15: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("%p", *p);
+                ~~   ^~
+                %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:02:16 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:17 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:24 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:02:25 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:02:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:15: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("%p", *p);
+                ~~   ^~
+                %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:02:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:03:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:11:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:03:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:03:34 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:04:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:12:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:04:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:04:44 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:12:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:04:45 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:05:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:12:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: unused variable 'q' [-Wunused-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:05:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:06:03 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:10:4: warning: incompatible pointer types assigning to 'int **' from 'int *'; take the address with & [-Wincompatible-pointer-types]
+        q = p;
+          ^ ~
+            &
+../src/Aufgabe3Pb.c:13:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: variable 'q' set but not used [-Wunused-but-set-variable]
+        int **q;
+              ^
+3 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:06:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:13:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:6:8: warning: variable 'q' set but not used [-Wunused-but-set-variable]
+        int **q;
+              ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:06:23 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:06:29 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:06:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:13:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+1 warning generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:06:48 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:06:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:07:09 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:13:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:18:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:07:15 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:08:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:16:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:08:12 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:08:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:24:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+2 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:08:42 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:10:35 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:24:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+../src/Aufgabe3Pb.c:25:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+3 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:10:43 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:11:46 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:24:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+../src/Aufgabe3Pb.c:26:35: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d: %d\n", *q);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:27:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+4 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:11:51 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:13:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:31: warning: data argument not used by format string [-Wformat-extra-args]
+        printf("&p mit prozent d\n", &p);
+               ~~~~~~~~~~~~~~~~~~~~  ^
+../src/Aufgabe3Pb.c:23:36: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d: %d\n\n", p);
+                                 ~~       ^
+../src/Aufgabe3Pb.c:26:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+../src/Aufgabe3Pb.c:28:35: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d: %d\n", *q);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:29:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:13:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:13:13 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:36: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d: %d\n\n", p);
+                                 ~~       ^
+../src/Aufgabe3Pb.c:26:34: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d: %d\n", q);
+                                 ~~     ^
+../src/Aufgabe3Pb.c:28:35: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d: %d\n", *q);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:29:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:13:14 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:15:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:36: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d: %d\n\n", p);
+                                 ~~       ^
+../src/Aufgabe3Pb.c:26:65: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(also die Adresse von p als int: %d\n", q);
+                                                                ~~     ^
+../src/Aufgabe3Pb.c:28:35: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d: %d\n", *q);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:29:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:15:11 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:15:49 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:75: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(also die Adresse von Variable als int): %d\n\n", p);
+                                                                        ~~       ^
+../src/Aufgabe3Pb.c:26:66: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(also die Adresse von p als int): %d\n", q);
+                                                                 ~~     ^
+../src/Aufgabe3Pb.c:28:35: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d: %d\n", *q);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:29:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:15:50 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:16:18 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:75: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(also die Adresse von Variable als int): %d\n\n", p);
+                                                                        ~~       ^
+../src/Aufgabe3Pb.c:26:66: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(also die Adresse von p als int): %d\n", q);
+                                                                 ~~     ^
+../src/Aufgabe3Pb.c:28:74: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(also die Adresse von variable als int): %d\n", *q);
+                                                                         ~~     ^~
+../src/Aufgabe3Pb.c:29:36: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p: %p\n", **q);
+                                   ~~     ^~~
+                                   %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:16:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:16:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:66: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(Adresse von Variable als int): %d\n\n", p);
+                                                               ~~       ^
+../src/Aufgabe3Pb.c:26:57: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(Adresse von p als int): %d\n", q);
+                                                        ~~     ^
+../src/Aufgabe3Pb.c:28:65: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(Adresse von variable als int): %d\n", *q);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:29:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p(variable als hexa: %p\n", **q);
+                                                     ~~     ^~~
+                                                     %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:16:58 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:17:56 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:35: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d: %d\n", &p);
+                                  ~~     ^~
+../src/Aufgabe3Pb.c:23:66: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(Adresse von Variable als int): %d\n\n", p);
+                                                               ~~       ^
+../src/Aufgabe3Pb.c:26:57: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(Adresse von p als int): %d\n", q);
+                                                        ~~     ^
+../src/Aufgabe3Pb.c:28:65: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(Adresse von variable als int): %d\n", *q);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:29:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p(variable als hexa: %p\n", **q);
+                                                     ~~     ^~~
+                                                     %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:17:57 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:19:00 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:35: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p: %p\n", *p);
+                                  ~~     ^~
+                                  %d
+../src/Aufgabe3Pb.c:21:65: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d(Adresse von p selbst als int): %d\n", &p);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:23:66: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(Adresse von Variable als int): %d\n\n", p);
+                                                               ~~       ^
+../src/Aufgabe3Pb.c:26:57: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(Adresse von p als int): %d\n", q);
+                                                        ~~     ^
+../src/Aufgabe3Pb.c:28:65: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(Adresse von variable als int): %d\n", *q);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:29:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p(variable als hexa: %p\n", **q);
+                                                     ~~     ^~~
+                                                     %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:19:01 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:19:19 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p(Variable als hexa): %p\n", *p);
+                                                     ~~     ^~
+                                                     %d
+../src/Aufgabe3Pb.c:21:65: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d(Adresse von p selbst als int): %d\n", &p);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:23:66: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(Adresse von Variable als int): %d\n\n", p);
+                                                               ~~       ^
+../src/Aufgabe3Pb.c:26:57: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(Adresse von p als int): %d\n", q);
+                                                        ~~     ^
+../src/Aufgabe3Pb.c:28:65: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(Adresse von variable als int): %d\n", *q);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:29:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p(variable als hexa: %p\n", **q);
+                                                     ~~     ^~~
+                                                     %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:19:20 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.
+19:19:30 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+Building file: ../src/Aufgabe3Pb.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Aufgabe3Pb.d" -MT"src/Aufgabe3Pb.o" -o "src/Aufgabe3Pb.o" "../src/Aufgabe3Pb.c"
+../src/Aufgabe3Pb.c:18:54: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("*p mit prozent p(Variable als hexa): %p\n", *p);
+                                                     ~~     ^~
+                                                     %d
+../src/Aufgabe3Pb.c:21:65: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("&p mit prozent d(Adresse von p selbst als int): %d\n", &p);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:23:66: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("p mit prozent d(Adresse von Variable als int): %d\n\n", p);
+                                                               ~~       ^
+../src/Aufgabe3Pb.c:26:57: warning: format specifies type 'int' but the argument has type 'int **' [-Wformat]
+        printf("q mit prozent d(Adresse von p als int): %d\n", q);
+                                                        ~~     ^
+../src/Aufgabe3Pb.c:28:65: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("*q mit prozent d(Adresse von variable als int): %d\n", *q);
+                                                                ~~     ^~
+../src/Aufgabe3Pb.c:29:55: warning: format specifies type 'void *' but the argument has type 'int' [-Wformat]
+        printf("**q mit prozent p(variable als hexa): %p\n", **q);
+                                                      ~~     ^~~
+                                                      %d
+6 warnings generated.
+Finished building: ../src/Aufgabe3Pb.c
+ 
+Building target: c-training
+Invoking: MacOS X C Linker
+gcc  -o "c-training"  ./src/Aufgabe3Pb.o   
+Finished building target: c-training
+ 
+19:19:31 **** Incremental Build of configuration Debug for project c-training ****
+make all 
+make: Nothing to be done for `all'.

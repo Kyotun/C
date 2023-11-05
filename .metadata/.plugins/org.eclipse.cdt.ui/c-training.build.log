@@ -1,6 +1,6 @@
-22:54:18 **** Incremental Build of configuration Debug for project c-training ****
+19:19:31 **** Incremental Build of configuration Debug for project c-training ****
 make all 
 make: Nothing to be done for `all'.
 
-22:54:18 Build Finished. 0 errors, 0 warnings. (took 117ms)
+19:19:31 Build Finished. 0 errors, 0 warnings. (took 103ms)
 

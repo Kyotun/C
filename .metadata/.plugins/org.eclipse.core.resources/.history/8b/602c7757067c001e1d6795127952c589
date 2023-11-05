@@ -1,0 +1,26 @@
+#include <stdio.h>
+#define N 2 /* fuer eine NxN-Matrix */
+
+int main() {
+	int *p;
+	int **q;
+	int variable = 100;
+
+	p = &variable;
+	q = &p;
+
+	printf("variable -> int variable = 100\n");
+	printf("p -> int *p\n");
+	printf("q -> int **q\n\n");
+
+	printf("variable: %d\n\n", variable);
+
+	printf("*p mit prozent p: %p\n", *p);
+	printf("*p mit prozent d: %d\n", *p);
+	printf("&p mit prozent p(also die Adresse von p selbst): %p\n", &p);
+	printf("p mit prozent p(also die Adresse von variable): %p\n", p);
+	printf("q mit prozent p: %p\n", q);
+	printf("q mit prozent d: %d\n", q);
+
+	return 0;
+}
